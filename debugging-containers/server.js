@@ -9,7 +9,7 @@ function getDate() {
 async function main() {
   while(true) {
     try  {
-      console.log(getDate());
+      console.log(getData());
     }
     catch(e) {
       console.log(e);
